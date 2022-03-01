@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Inter,'Poppins';
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+   height: 110px;
+   
+
+}
+.logo{
+  height: 80px;
+  width: 90px;
+  padding: 15px 50px;
+}
+.title{
+  position: absolute;
+width: 240.79px;
+height: 300px;
+left: 158px;
+top: 21px;
+font-weight: 800;
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+
+font-size: x-large;
+
+color: #FFFFFF;
+}
+
+.p2{
+  position: absolute;
+  width: 189px;
+  height: 14px;
+  left: 954px;
+  top: 35px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: right;
+  
+  color: #FFFFFF;
+}
+main{
+  padding: 50px 180px;
+}
+.form{
+ display: grid;
+ grid-template-columns: 460px 460px;
+ gap: 40px;
+}
+.form>input{
+  border-radius: 4px;
+  height: 32px;
+}
+.form>button{
+  position: absolute;
+  margin-top: -15px;
+  border-radius: 4px;
+  height: 43px;
+  width: 780px;
+  left: 250px;
+  top: 250px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+border-radius: 5px;
+color: white;
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+text-align: center;
+}
+
+.memepage>img{
+  margin-top: 100px;
+   height: 500px;
+   width: 650px;
+   margin-left: 120px;
+}
+.prac>h3{
+  display: flex;
+  flex-direction: column;
+}
+.top-text{
+  color: #4b1212;
+  margin-top: -450px;
+  margin-left: 400px;
+  color: white;
+}
+.bottom-text{
+  margin-top: 350px;
+  margin-left: 400px;
+  color: #742424;
+}
+input{
+  text-indent: 10px;
+}
