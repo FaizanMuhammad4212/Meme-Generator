@@ -16,7 +16,7 @@ export default function Navbar(){
 
   
  
-  function getmem(){
+  function getmeme(){
         const ran=Math.floor(Math.random() * memeImage.length);    
         const url=memeImage[ran].url
         setmeme(pretext=>({
@@ -42,7 +42,7 @@ export default function Navbar(){
           <div className="form">
             <input type="text" placeholder="top text" name="top" value={meme.top} onChange={handlechange}></input>
             <input type="text" placeholder="bottom text" name="bottom" value={meme.bottom} onChange={handlechange}></input>
-            <button onClick={getmem}>Get a new meme image 🖼</button>
+            <button onClick={getmeme}>Get a new meme image 🖼</button>
           </div>
           <div className="memepage">
           <img src={meme.randimg} alt=""></img>
